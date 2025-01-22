@@ -1,6 +1,8 @@
-This repo is a collection of notebooks that explore NHS patient experience feedback (NHS FFT), with the aim of developing a more resource-efficient sentiment analysis model. My experiments build on the [reports and findings](https://the-strategy-unit.github.io/PatientExperience-QDC/) of the [`pxtextmining`](https://github.com/The-Strategy-Unit/pxtextmining/tree/main) project.
+This repo is a collection of notebooks that explore NHS patient experience feedback* with the aim of developing a more resource-efficient sentiment analysis model. My experiments build on the [reports and findings](https://the-strategy-unit.github.io/PatientExperience-QDC/) of the [`pxtextmining`](https://github.com/The-Strategy-Unit/pxtextmining/tree/main).
 
-The sample FFT data is from the [`pxtextmining`](https://github.com/The-Strategy-Unit/pxtextmining/tree/main) project.
+*The sample Friends and Family Test (FFT) data is publicly hosted at the [`pxtextmining`](https://github.com/The-Strategy-Unit/pxtextmining/tree/main) project.
+
+I explore and reference the data and code that has been helpfully open-sourced by [The Strategy Unit](https://github.com/The-Strategy-Unit) team based in the NHS. I am not affiliated with the NHS and this repo is a personal side-project.
 
 ## Main finding
 The main finding of my work is that TinyBERT performs competitively with DistilBERT for sentiment classification of NHS FFT free-text feedback, both in terms of overall performance ($F_1^{macro}$ of 63% vs 65%), and also for the important but challenging subset of 'very critical'/'very negative' reponses (recall of 66% vs 68%).
