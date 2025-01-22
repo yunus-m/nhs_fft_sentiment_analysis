@@ -1,4 +1,4 @@
-This repo is a collection of notebooks that explore NHS patient experience feedback* with the aim of developing a more resource-efficient sentiment analysis model. My experiments build on the [reports and findings](https://the-strategy-unit.github.io/PatientExperience-QDC/) of the [`pxtextmining`](https://github.com/The-Strategy-Unit/pxtextmining/tree/main) project.
+This repo is a collection of notebooks that explore NHS patient experience feedback* with the aim of developing a resource-efficient sentiment analysis model. My experiments build on the [reports and findings](https://the-strategy-unit.github.io/PatientExperience-QDC/) of the [`pxtextmining`](https://github.com/The-Strategy-Unit/pxtextmining/tree/main) project.
 
 *The sample Friends and Family Test (FFT) data is publicly hosted at the [`pxtextmining`](https://github.com/The-Strategy-Unit/pxtextmining/tree/main) project.
 
