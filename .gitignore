@@ -1,0 +1,8 @@
+__pycache__/
+catboost_info/
+cv_estimators/
+cv_estimators_tuned/
+embedding_weights/
+finetuned/
+runs/
+New\ general\ trust\ template.xlsx
