@@ -32,6 +32,7 @@ The main code and model outputs of my exploratory work are:
 
 
 ## Repo structure
+
 **`1 - eda.ipynb`**
 Exploratory data analysis of the sentiment and category data.
 
@@ -63,6 +64,9 @@ Domain adaptation of DistilBERT using masked language modelling (MLM). I origina
 
 **`spreadsheet_data_handling.py`** Loading and light-touch formatting of NHS FFT data
 
+You can run `pip install -r requirements.txt` in a new `conda` environment to get an identical set-up. Alternatively, the main dependencies are: `catboost`, `lightgbm`, `xgboost`, `pandas`, `scikit-learn`, `torch`, `tensorboard`, `transformers[sentencepiece]`, `seaborn`, `jupyterlab`, `ipykernel`, and `ipympl`.
+
+`scikit-learn-intelex` is helpful if you have an Intel CPU. I am running the CUDA-enabled version of PyTorch.
 
  ## Further avenues to explore
  - Combine domain adaptation with fine-tuning with the aim of improving TinyBERT performance
