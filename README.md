@@ -64,7 +64,10 @@ Domain adaptation of DistilBERT using masked language modelling (MLM). I origina
 
 **`spreadsheet_data_handling.py`** Loading and light-touch formatting of NHS FFT data
 
-You can run `pip install -r requirements.txt` in a new `conda` environment to get an identical set-up. Alternatively, the main dependencies are: `catboost`, `lightgbm`, `xgboost`, `pandas`, `scikit-learn`, `torch`, `tensorboard`, `transformers[sentencepiece]`, `seaborn`, `jupyterlab`, `ipykernel`, and `ipympl`.
+### Environment setup
+You can run `pip install -r requirements.txt` in a new `conda` environment to get an identical setup.
+
+Alternatively, for manual installation, the main dependencies are: `catboost`, `lightgbm`, `xgboost`, `pandas`, `scikit-learn`, `torch`, `tensorboard`, `transformers[sentencepiece]`, `seaborn`, `jupyterlab`, `ipykernel`, and `ipympl`.
 
 `scikit-learn-intelex` is helpful if you have an Intel CPU. I am running the CUDA-enabled version of PyTorch.
 
