@@ -1,4 +1,4 @@
-This repo is a collection of notebooks that explore NHS patient experience feedback* with the aim of developing a more resource-efficient sentiment analysis model. My experiments build on the [reports and findings](https://the-strategy-unit.github.io/PatientExperience-QDC/) of the [`pxtextmining`](https://github.com/The-Strategy-Unit/pxtextmining/tree/main).
+This repo is a collection of notebooks that explore NHS patient experience feedback* with the aim of developing a more resource-efficient sentiment analysis model. My experiments build on the [reports and findings](https://the-strategy-unit.github.io/PatientExperience-QDC/) of the [`pxtextmining`](https://github.com/The-Strategy-Unit/pxtextmining/tree/main) project.
 
 *The sample Friends and Family Test (FFT) data is publicly hosted at the [`pxtextmining`](https://github.com/The-Strategy-Unit/pxtextmining/tree/main) project.
 
@@ -53,7 +53,7 @@ Finetuning TinyBERT first on SST-5 sentiment data, then further tuning it on FFT
 ![image](https://github.com/user-attachments/assets/aed20549-a668-4f47-9dde-facd7cff9515)
 
 **`5 - domain_adaptation.ipynb`**
-Domain adaptation of DistilBERT using masked language modelling (MLM). Originalyl I used this to generate domain-adapted word embeddings when developing a lightweight sentence-embedding scheme.
+Domain adaptation of DistilBERT using masked language modelling (MLM). I originally used this to generate domain-adapted word embeddings when developing a lightweight sentence-embedding scheme. 
 
 ![image](https://github.com/user-attachments/assets/c7647a6b-d374-46f1-b347-7024d5128b4c)
 
@@ -65,7 +65,7 @@ Domain adaptation of DistilBERT using masked language modelling (MLM). Originaly
 
 
  ## Further avenues to explore
- - Combine domain adaptation with fine-tuning to get better TinyBERT performance
+ - Combine domain adaptation with fine-tuning with the aim of improving TinyBERT performance
  - Cluster analysis of the neutral/mixed responses
    - Being able to separate these out would help with surfacing critical comments and aid model training
  - Apply the methods explored so far to category tagging
