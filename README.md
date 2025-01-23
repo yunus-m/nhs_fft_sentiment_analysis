@@ -7,7 +7,7 @@ I explore and reference the data and code that has been helpfully open-sourced b
 ## Main finding
 The main finding of my work is that TinyBERT performs competitively with DistilBERT for sentiment classification of NHS FFT free-text feedback, both in terms of overall performance ($F_1^{macro}$ of 63% vs 65%), and also for the important but challenging subset of 'very critical'/'very negative' reponses (recall of 66% vs 68%).
 
-This is finding is relevant to deployment settings where resources are limited, since TinyBERT (15M parameters) is one fifth the size of DistilBERT, resulting in a smaller resource footprint and shorter run times.
+This finding is relevant to deployment settings where resources are limited, since TinyBERT (15M parameters) is one fifth the size of DistilBERT, resulting in a smaller resource footprint and shorter run times.
 
 ## Main code and model outputs
 
