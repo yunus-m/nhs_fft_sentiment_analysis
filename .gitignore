@@ -5,4 +5,8 @@ cv_estimators_tuned/
 embedding_weights/
 finetuned/
 runs/
+
+sl_test.py
+6\ -\ unsupervised.ipynb
+
 New\ general\ trust\ template.xlsx
