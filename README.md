@@ -5,7 +5,7 @@ This repo is a collection of notebooks that explore NHS patient experience feedb
 I explore and reference the data and code that has been helpfully open-sourced by [The Strategy Unit](https://github.com/The-Strategy-Unit) team based in the NHS. I am not affiliated with the NHS and this repo is a personal side-project.
 
 ## Main finding
-The main finding of my work is that TinyBERT performs competitively with DistilBERT for sentiment classification of NHS FFT free-text feedback, both in terms of overall performance ($F_1^{macro}$ of 63% vs 65%), and also for the important but challenging subset of 'very critical'/'very negative' reponses (recall of 66% vs 68%).
+The main finding of my work is that TinyBERT performs competitively with DistilBERT for sentiment classification of NHS FFT free-text feedback, both in terms of overall performance ($F_1^{macro}$ of 64% vs 65%), and for 'critical'/'negative' reponses (recall of 65% vs 71%).
 
 This finding is relevant to deployment settings where resources are limited, since TinyBERT (15M parameters) is one fifth the size of DistilBERT, resulting in a smaller resource footprint and shorter run times.
 
