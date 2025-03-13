@@ -3,7 +3,11 @@ catboost_info/
 cv_estimators/
 cv_estimators_tuned/
 embedding_weights/
-finetuned/
+
+finetuned/distilbert-fft.pickle
+finetuned/tinybert-sst5.pickle
+finetuned/tinybert-sst5-fft.pickle
+
 runs/
 
 New\ general\ trust\ template.xlsx
